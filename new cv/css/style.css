@@ -1,0 +1,132 @@
+.skill_img{
+	height: 100%;
+	width: 100%;
+}
+body{
+  margin: 0px;
+  text-align: center;
+}
+.container{
+  position: relative;
+  padding-top: 20px;
+  background-color: #b0e0e6;
+ clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.line{
+  width: 100%;
+  justify-content: center;
+  background-color:#FAA0A0;
+}
+.left{
+	display: inline-block;
+	width: 400px;
+	text-align: justify-all;
+}
+
+p{
+	/*animation: type 2s;*/
+	font: "tahoma";
+	font-size: 17px;
+}
+
+/*skills*/
+
+#left{
+			width: 20%;
+			word-wrap: break-word;
+		}
+		#right{
+			width: 70%;
+			word-wrap: break-word;
+			margin-left:10px;
+			background-color: coral;
+			border-radius: 20px;
+			padding: 50px 0px;
+		}
+		#a{
+			display: inline-flex;
+			height: 50%;
+			max-width: 50%;
+			margin-top: 30px;
+		}
+		#left img{
+			height: 100%;
+			width: 100%;
+			border-radius: 10px;
+		}
+
+		#left1{
+			width: 20%;
+			word-wrap: break-word;
+			margin-left: 10px;
+		}
+		#right1{
+			width: 70%;
+			word-wrap: break-word;
+			background-color: coral;
+			border-radius: 20px;
+			padding: 50px 0px;
+		}
+		#a1{
+			display: inline-flex;
+			height: 50%;
+			max-width: 50%;
+			margin-top: 30px;
+		}
+		#left1 img{
+			height: 100%;
+			width: 100%;
+			border-radius: 10px;
+		}
+
+
+/*about*/
+#about{
+	font-size: 25px;
+	padding: 0px 400px;
+	color: orange;
+}
+
+button{
+
+height: auto;
+ border-radius: 30px;
+ height: 30%;
+
+}
+.btn{
+	display: inline-flex;
+}.bt:hover{
+	background-color:aqua;
+}
+
+/*programming skills*/
+
+#projects{
+	display: none;
+}
+
+#p_skills{
+	display: none;
+}
+
+.projects_table{
+	width: 30%;
+}
+
+.social_media{
+	width: 30%;	
+}
+
+/*botton container*/
+.bottom-container i{
+	margin-left: 20px;
+}
